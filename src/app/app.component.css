@@ -1,0 +1,28 @@
+
+
+table,th,tr,td{
+    border: 2px solid black;
+
+}
+table{
+   
+    height:800px;
+}
+thead{
+    background-color: skyblue;
+    height: 100px;
+}
+
+.button{
+    background-color: aqua;
+    color: red;
+    border-radius: 20px;
+}
+tr:nth-last-col{
+    align-items: center;
+}
+
+/* .modal{
+    height: 100px;
+    width: 200px;
+} */

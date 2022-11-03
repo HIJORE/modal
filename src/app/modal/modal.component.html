@@ -1,0 +1,21 @@
+
+<div ng-app="PersonApp" class="container">
+    <br />
+    <br />
+    <input type="text" placeholder="Search Person" ng-model="searchPerson" />
+    <br />
+    <br />
+    <div ng-controller="PersonController">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th ng-click="sortData('Id')">
+                        ID <div ng-class="getSortClass('Id')"></div>
+                    </th>
+                    <th ng-click="sortData('firstName')">
+                        First Name <div ng-class="getSortClass('firstName')"></div>
+                    </th>
+                    <th ng-click="sortData('lastName')">
+                        Last Name <div ng-class="getSortClass('lastName')"></div>
+                    </th>
+                    <th>Actions</th>
